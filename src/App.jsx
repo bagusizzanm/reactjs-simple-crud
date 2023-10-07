@@ -97,7 +97,7 @@ const App = () => {
                      <TambahMahasiswa onAddMahasiswa={handleAddMahasiswa} mahasiswas={mahasiswas} />
                      {
                         mahasiswas.map((mahasiswa) =>
-                           <Mahasiswa key={mahasiswa.nim} mahasiswa={mahasiswa} onEditMahasiswa={handleEditMahasiswa} onDeleteMahasiswa={handleDeleteMahasiswa} onShowMessage={handleShowMessage}
+                           <Mahasiswa key={mahasiswa.nim} mahasiswa={mahasiswa} onEditMahasiswa={handleEditMahasiswa} onDeleteMahasiswa={handleDeleteMahasiswa}
                            />
                      )}
                   </tbody>
